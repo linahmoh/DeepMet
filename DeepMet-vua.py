@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 import tensorflow as tf
 import tensorflow.keras.backend as K
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from scipy.stats import spearmanr
 from math import floor, ceil
 from transformers import *
